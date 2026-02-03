@@ -52,7 +52,6 @@ export async function getNewestShows(page = 1) {
     .split("T")[0];
 
   return discoverShows(
-    `${BASE_URL}/discover/tv?api_key=${API_KEY}` +
       `&sort_by=last_air_date.desc` +
       `&last_air_date.gte=${sixtyDaysAgo}` +
       `&last_air_date.lte=${today}` +
