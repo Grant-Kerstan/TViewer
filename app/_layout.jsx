@@ -1,3 +1,4 @@
+import MobileFrame from "../components/MobileFrame";
 import { Stack, useRouter, useSegments } from "expo-router";
 import { Pressable, StyleSheet, Text, View } from "react-native";
 
@@ -9,7 +10,8 @@ export default function Layout() {
   const active = segments.length > 0 ? segments[0] : "index";
 
   return (
-    // Assign Names to Screens and create tab bar
+    <MobileFrame>
+    {/*Assign Names to Screens and create tab bar*/}
     <> 
       <Stack>
         <Stack.Screen
@@ -54,6 +56,7 @@ export default function Layout() {
         </Pressable>
       </View>
     </>
+    </MobileFrame>
   );
 }
 
