@@ -24,8 +24,11 @@
       "package": "com.anonymous.Transportation"
     },
     "web": {
+      "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "config": { 
+        "baseUrl": "/TViewer/" }
     },
     "plugins": [
       "expo-router",
