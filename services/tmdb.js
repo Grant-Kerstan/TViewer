@@ -1,7 +1,7 @@
 // TMDB API configuration
 // NOTE: the API key is currently hard-coded for convenience in development.
 // Move this to environment variables before shipping to production.
-const API_KEY = process.env.EXPO_PUBLIC_TMDB_API_KEY;
+const API_KEY = "6d92db6e52f95137caa4aacb2436b044";
 const BASE_URL = "https://api.themoviedb.org/3";
 
 /**
