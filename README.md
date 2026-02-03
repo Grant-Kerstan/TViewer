@@ -28,4 +28,5 @@ Built with **React Native**, **Expo**, and **The Movie Database (TMDB) API**, TV
 
 ---
 
-## 🚀 Getting Started
+## Live web demo link: https://tviewer.netlify.app/
+(The web demo is sized like a mobile device because this app was designed for mobile devices)
